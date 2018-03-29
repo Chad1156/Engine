@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Manager.h">
+      <Filter>managers</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemManager.h" />
+    <ClInclude Include="..\..\..\..\Downloads\stdafx.h" />
+    <ClInclude Include="SceneManager.h">
+      <Filter>managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Manager.cpp">
+      <Filter>managers</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemManager.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\stdafx.cpp" />
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>managers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="managers">
+      <UniqueIdentifier>{70631783-a5e8-4131-9103-3cb7115724b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systems">
+      <UniqueIdentifier>{040840cc-74ce-4de1-b3c3-4cca060e0180}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
